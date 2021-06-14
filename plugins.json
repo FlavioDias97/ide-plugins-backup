@@ -1,0 +1,94 @@
+{
+  "plugins": [
+    {
+      "pluginId": "com.wakatime.intellij.plugin",
+      "pluginName": "WakaTime",
+      "downloadUrl": "https://wakatime.com",
+      "dependencyPluginIds": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.platform"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "lermitage.intellij.extra.icons",
+      "pluginName": "Extra Icons",
+      "dependencyPluginIds": [
+        "com.intellij.modules.lang",
+        "com.intellij.modules.vcs",
+        "AngularJS"
+      ],
+      "optionalDependencyPluginIds": [
+        "AngularJS"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "some.awesome",
+      "pluginName": "Nyan Progress Bar",
+      "dependencyPluginIds": [
+        "com.intellij.modules.platform"
+      ],
+      "optionalDependencyPluginIds": [],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "izhangzhihao.rainbow.brackets",
+      "pluginName": "Rainbow Brackets",
+      "dependencyPluginIds": [
+        "com.intellij.modules.lang",
+        "org.jetbrains.kotlin",
+        "JavaScript",
+        "Dart",
+        "org.intellij.groovy",
+        "com.intellij.modules.rider",
+        "intellij.haskell",
+        "com.intellij.database",
+        "com.intellij.modules.clion",
+        "com.jetbrains.sh",
+        "com.jetbrains.php",
+        "org.jetbrains.plugins.go-template",
+        "com.jetbrains.plugins.jade"
+      ],
+      "optionalDependencyPluginIds": [
+        "org.jetbrains.kotlin",
+        "JavaScript",
+        "Dart",
+        "org.intellij.groovy",
+        "com.intellij.modules.rider",
+        "intellij.haskell",
+        "com.intellij.database",
+        "com.intellij.modules.clion",
+        "com.jetbrains.sh",
+        "com.jetbrains.php",
+        "org.jetbrains.plugins.go-template",
+        "com.jetbrains.plugins.jade"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    },
+    {
+      "pluginId": "zielu.gittoolbox",
+      "pluginName": "GitToolBox",
+      "downloadUrl": "https://github.com/zielu/GitToolBox",
+      "dependencyPluginIds": [
+        "com.intellij.modules.platform",
+        "Git4Idea",
+        "com.intellij.modules.java",
+        "gr.jchrist.gitextender",
+        "org.jetbrains.android"
+      ],
+      "optionalDependencyPluginIds": [
+        "com.intellij.modules.java",
+        "gr.jchrist.gitextender",
+        "org.jetbrains.android"
+      ],
+      "isBundle": false,
+      "isEnable": true
+    }
+  ]
+}
